@@ -1,0 +1,12 @@
+apiVersion: apps.tanzu.vmware.com/v1
+kind: ContainerApp
+metadata:
+  creationTimestamp: null
+  name: java-rest-service
+spec:
+  build:
+    buildpacks: {}
+    path: ../../java-rest-service
+  ports:
+  - name: main
+    port: 8080

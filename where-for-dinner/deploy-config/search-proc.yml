@@ -1,0 +1,15 @@
+apiVersion: apps.tanzu.vmware.com/v1
+kind: ContainerApp
+metadata:
+  creationTimestamp: null
+  name: search-proc
+spec:
+  build:
+    buildpacks: {}
+    path: ../where-for-dinner-search-proc
+    nonSecretEnv:
+    - name: BP_JVM_VERSION
+      value: "21"
+  ports:
+  - name: main
+    port: 8080
