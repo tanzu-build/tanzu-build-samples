@@ -4,7 +4,7 @@ kind: ContainerAppBuildPlan
 metadata:
   name: platform-config 
 spec:
-  registry: marygabry1508
+  registry: marygabry1508/{name}
   buildpacks:
     builder: "paketobuildpacks/builder-jammy-base"
   postBuildSteps:
