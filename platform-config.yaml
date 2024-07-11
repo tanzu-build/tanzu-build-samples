@@ -15,7 +15,7 @@ spec:
       description: create a carvel package for deploying on kubernetes 
       steps:
       - namedtask: tanzu-kubernetes-deployment
-      # - namedtask: tanzu-kubernetes-carvel-package
+      - namedtask: tanzu-kubernetes-carvel-package
 
 
 # runtimes:
