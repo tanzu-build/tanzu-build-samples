@@ -1,0 +1,12 @@
+apiVersion: apps.tanzu.vmware.com/v1
+kind: ContainerApp
+metadata:
+  creationTimestamp: null
+  name: demo-java-app
+spec:
+  build:
+    buildpacks: {}
+    path: ../../demo-java-app
+  ports:
+  - name: main
+    port: 8080
