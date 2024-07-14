@@ -1,6 +1,6 @@
 # Introduction customer-profile
 
-Customer-profile provides you an out-of-the-box application setup to implement your business logic. It is based on the
+customer-profile provides you an out-of-the-box application setup to implement your business logic. It is based on the
 commonly known 3-layered application architecture in where the package `api` provides the presentation layer, `domain` provides 
 the services and business domain and finally the `data` package provides you the capability to persist your domain.
 
